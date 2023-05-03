@@ -1,10 +1,15 @@
 import Form from './components/Form';
 import './App.css';
+import Selector from './components/Selector';
 
 function App() {
   return (
-    <div className="bg-green-500">
-      <Form />
+    <div className="">
+    <div>
+    <Selector />
+    </div>
+    
+    {/* <Form /> */}
     </div>
   );
 }

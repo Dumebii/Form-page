@@ -19,7 +19,7 @@ export default function Form() {
       }
 
   return (
-    <div className="ml-[25rem] bg-blue-300">
+    <div className="">
     <h1 className="text-blue-900 pt-10 mb-8">
         Personal Info
     </h1>
@@ -32,7 +32,7 @@ export default function Form() {
             Name
         </label>
         <input
-          className="block border mb-8 pl-5 rounded-md"
+          className=" border mb-8 pl-5 rounded-md"
           name="fName"
           onChange={setSate}
           value={contact.fName}
@@ -42,7 +42,7 @@ export default function Form() {
             Email Address
         </label>
         <input
-          className="block border mb-8 pl-5 rounded-md"
+          className=" border mb-8 pl-5 rounded-md"
           name="email"
           onChange={setSate}
           value={contact.email}
@@ -53,7 +53,7 @@ export default function Form() {
         </label>
         <input
           name="phone"
-          className="block border mb-8 pl-5 rounded-md"
+          className=" border mb-8 pl-5 rounded-md"
           onChange={setSate}
           value={contact.phone}
           type="number"

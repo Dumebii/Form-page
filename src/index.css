@@ -2,16 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.background {
+  background-image: url('./components/images/bg-sidebar-desktop.svg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.rounded-full {
+  border: solid black 1px;
 }
