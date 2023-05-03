@@ -32,7 +32,7 @@ export default function Form() {
             Name
         </label>
         <input
-          className=" border mb-8 pl-5 rounded-md"
+          className="block border mb-8 pl-5 rounded-md"
           name="fName"
           onChange={setSate}
           value={contact.fName}
@@ -42,7 +42,7 @@ export default function Form() {
             Email Address
         </label>
         <input
-          className=" border mb-8 pl-5 rounded-md"
+          className="block border mb-8 pl-5 rounded-md"
           name="email"
           onChange={setSate}
           value={contact.email}
@@ -53,7 +53,7 @@ export default function Form() {
         </label>
         <input
           name="phone"
-          className=" border mb-8 pl-5 rounded-md"
+          className="block border mb-8 pl-5 rounded-md"
           onChange={setSate}
           value={contact.phone}
           type="number"

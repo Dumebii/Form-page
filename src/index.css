@@ -13,6 +13,8 @@ body {
   background-size: cover;
   display: flex;
   flex-direction: column;
+  height: 30rem;
+  width: 15rem;
 }
 
 .rounded-full {
