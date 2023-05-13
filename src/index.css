@@ -6,20 +6,25 @@
 body {
   min-height: 100vh;
   height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: hsl(217, 100%, 97%);
 }
 
 .background {
   background-image: url('./components/images/bg-sidebar-desktop.svg');
   background-size: cover;
-  /* display: flex;
-  flex-direction: row; */
   height: 30rem;
   width: 15rem;
 }
 
+.form {
+  background-color: white;
+}
+
 .mr-5 {
   border: solid white 1px;
-  border-radius: 50%;
+  border-radius: 70%;
+  height: 40px;
 }
 
 .flex-col {
@@ -33,3 +38,11 @@ body {
   flex-direction: row;
   margin-top: 15px;
 }
+
+.paragraph {
+  color: hsl(231, 11%, 63%)
+  ;
+}
+ span, .flex-container {
+  color: white;
+ }

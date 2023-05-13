@@ -19,20 +19,20 @@ export default function Form() {
       }
 
   return (
-    <div className="">
-    <h1 className="text-blue-900 pt-10 mb-8">
+    <div className="form">
+    <h1 className="text-blue-900 pt-10 mb-8 ml-8 font-bold">
         Personal Info
     </h1>
-    <p className="mb-8  mt-3">
+    <p className="mb-8  mt-3 ml-8 paragraph font-normal">
         Please provide your name, email address and phone number
     </p>
     <div >
-    <form className="pl-5">
+    <form className="pl-8">
         <label for='fName'>
             Name
         </label>
         <input
-          className="block border mb-8 pl-5 rounded-md"
+          className="block border mb-8 pl-10 rounded-md w-[30em]"
           name="fName"
           onChange={setSate}
           value={contact.fName}
@@ -42,7 +42,7 @@ export default function Form() {
             Email Address
         </label>
         <input
-          className="block border mb-8 pl-5 rounded-md"
+          className="block border mb-8 pl-10 rounded-md w-[30em]"
           name="email"
           onChange={setSate}
           value={contact.email}
@@ -53,13 +53,13 @@ export default function Form() {
         </label>
         <input
           name="phone"
-          className="block border mb-8 pl-5 rounded-md"
+          className="block border mb-8 pl-10 rounded-md w-[30em]"
           onChange={setSate}
           value={contact.phone}
           type="number"
           placeholder="e.g. +23481725545"
         />
-        <button className="ml-10 border bg-blue-700">Next step</button>
+        <button className="ml-10 border bg-blue-700 text-white rounded-md p-3">Next step</button>
       </form>  
     </div>
       
