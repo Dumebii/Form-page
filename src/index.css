@@ -11,12 +11,25 @@ body {
 .background {
   background-image: url('./components/images/bg-sidebar-desktop.svg');
   background-size: cover;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: row; */
   height: 30rem;
   width: 15rem;
 }
 
-.rounded-full {
-  border: solid black 1px;
+.mr-5 {
+  border: solid white 1px;
+  border-radius: 50%;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
 }
