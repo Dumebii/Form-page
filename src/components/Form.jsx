@@ -37,6 +37,7 @@ export default function Form() {
           onChange={setSate}
           value={contact.fName}
           placeholder="e.g. Stephen King"
+          required
         />
         <label for='email'>
             Email Address
@@ -47,6 +48,7 @@ export default function Form() {
           onChange={setSate}
           value={contact.email}
           placeholder="e.g. stephenking@lorem.com"
+          required
         />
         <label for='phone'>
             Phone Number
@@ -58,6 +60,7 @@ export default function Form() {
           value={contact.phone}
           type="number"
           placeholder="e.g. +23481725545"
+          required
         />
         <button className="ml-10 border bg-blue-700 text-white rounded-md p-3">Next step</button>
       </form>  

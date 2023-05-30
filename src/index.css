@@ -27,6 +27,10 @@ body {
   height: 40px;
 }
 
+.mr-5:hover {
+  background-color: aqua;
+}
+
 .flex-col {
   display: flex;
   flex-direction: column;
