@@ -38,7 +38,7 @@ export default function Plan() {
        </div> </div>
 <div className='w-[30rem] h-10 bg-neutral-200'>
 <span className='ml-5'>Monthly</span> <label className="switch m-3">
-  <input type="checkbox" className='input' checked={check}/>
+  <input type="checkbox" className='input' checked={check} onChange={checking}/>
   <span className="slider round"></span>
 </label> <span className={`${check? 'text-green-400' : 'text-white-100'}`}>Yearly</span>
 </div>

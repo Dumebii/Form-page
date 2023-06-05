@@ -4,9 +4,6 @@ import '../index.css';
 export default function Selector() {
    return(
     <div className="background flex-row mt-5">
-      {/* <h1>
-        We are trying, to the absolute glory of our Lord Jesus!!
-      </h1> */}
       <div className='flex-col'>
       <div className='flex-container'>
         <button className=' mr-5 ml-5 pl-2 pr-2'>
