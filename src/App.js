@@ -1,14 +1,12 @@
-// import Form from './components/Form';
-
 import Plan from './components/plan';
-
-// import Selector from './components/Selector';
 import * as ReactDOM from "react-dom/client";
 
 import Homepage from './components/homepage';
 
 import { createBrowserRouter, RouterProvider}
    from 'react-router-dom';
+
+import Pick from './components/pick';
 
 const router = createBrowserRouter([{
   path: "/",
@@ -21,6 +19,10 @@ const router = createBrowserRouter([{
 {
   path: "/",
   element: <Homepage />
+},
+{
+  path: "/pick",
+  element: <Pick />
 }
 ])
 

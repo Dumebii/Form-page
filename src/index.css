@@ -20,6 +20,9 @@ body {
 .form {
   background-color: white;
 }
+.form-button {
+  background-color: hsl(213, 96%, 18%);
+}
 
 .mr-5 {
   border: solid white 1px;
@@ -47,7 +50,7 @@ body {
   color: hsl(231, 11%, 63%)
   ;
 }
- span, .flex-container {
+ .selector-span, .flex-container {
   color: white;
  }
 
@@ -68,6 +71,14 @@ body {
  .secomd-paragraph {
   color: hsl(213, 96%, 18%);
   font-weight: 700;
+ }
+ 
+ .options-pick {
+  border: solid 1px black 
+ }
+ .options-pick:hover {
+  background-color: hsl(206, 94%, 87%);
+  border: 1px solid blue;
  }
 
  .switch {

@@ -63,9 +63,8 @@ export default function Form() {
           placeholder="e.g. +23481725545"
           required
         />
-        <Link to={`plan`}><button className="ml-10 border
-         bg-blue-700 text-white
-        rounded-md p-3">Next step</button></Link>
+        <Link to={`plan`}><button className="ml-[24rem] border mt-5 form-button text-white
+        rounded-md p-2">Next step</button></Link>
       </form>  
     </div>
     </div>
