@@ -45,8 +45,8 @@ const Pick = () => {
               <p className="ml-[12rem] mt-2">+$20/yr</p>
             </div>
           </div>
-          <div className={`flex options-pick m-6 rounded-md ${check? 'bg-blue-100' : 'bg-white' }`}>
-            <input type="checkbox" onChange={checking} className="m-2" />
+          <div className={`flex options-pick m-6 rounded-md ${check? 'bg-blue-100' : 'bg-white' }`} onClick={checking}>
+            <input type="checkbox"  className="m-2" />
             <div className="flex m-2">
               <div>
                 <h4>Customizable profile</h4>
