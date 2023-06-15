@@ -18,15 +18,18 @@ export default function Plan() {
     }
 
     return ( 
-    <div className='flex bg-white m-20 rounded-md'>
+    <div className='flex bg-white mt-10 ml-[11rem] rounded-xl w-[63rem]'>
     <div className='m-5'><Selector /></div>
     <div className='m-10'>
-    <h1 className='p-5 text-blue-900 font-bold'>
+    <div className='m-5'>
+    <h1 className=' text-blue-900 font-bold text-3xl'>
       Select your plan
     </h1>
-    <p className='paragraph font-normal p-5'>
+    <p className='paragraph font-normal mt-2 text-sm'>
       We have the option of monthly or yearly billing
     </p>
+    </div>
+    
     <div className='flex'>
        <div className='w-[12rem] h-[12rem] first-div m-3' onMouseOver={hidden}>
          <img className='pl-6 mt-6 mb-6' src={Arcade} />
@@ -60,7 +63,7 @@ export default function Plan() {
       <div className='flex mt-10'>
         <Link to={`/`}><p className="ml-10 paragraph
         rounded-md p-3">Go back</p></Link>
-        <Link to={``}><button className="ml-[25rem] border
+        <Link to={`/pick`}><button className="ml-[25rem] border
          bg-blue-800 font-normal
         rounded-md p-2">
         Next step</button></Link>
