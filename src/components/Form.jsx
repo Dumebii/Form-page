@@ -64,7 +64,7 @@ export default function Form() {
           required
         />
         <Link to={`plan`}><button className="ml-[24rem] border mt-5 form-button text-white
-        rounded-md p-2">Next step</button></Link>
+        rounded-md p-2" type="submit">Next step</button></Link>
       </form>  
     </div>
     </div>

@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider}
    from 'react-router-dom';
 
 import Pick from './components/pick';
+import FinishingUp from './components/finishingUp';
 
 const router = createBrowserRouter([{
   path: "/",
@@ -23,6 +24,10 @@ const router = createBrowserRouter([{
 {
   path: "/pick",
   element: <Pick />
+},
+{
+  path: "/finishingUp",
+  element: <FinishingUp />
 }
 ])
 

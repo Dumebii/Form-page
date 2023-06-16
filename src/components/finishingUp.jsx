@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 export default function FinishingUp() {
   return (
-    <div>
+    <div className="flex">
       <div className="m-3">
         <Selector />
       </div>
       <div>
-        <h1 className="text-3xl text-blue-900 font-bold">FInishing up</h1>
+        <h1 className="text-3xl text-blue-900 font-bold">Finishing up</h1>
         <p className="paragraph font-normal text-sm mt-1">
           Double check everything before confirming
         </p>
@@ -38,8 +38,7 @@ export default function FinishingUp() {
             </p>
             <span>+$12/mo</span>
         </div>
-      </div>
-      <div className="flex mt-20">
+        <div className="flex mt-20">
             <Link to={`/plan`}>
               <p
                 className="ml-10 paragraph
@@ -56,6 +55,7 @@ export default function FinishingUp() {
               </button>
             </Link>
           </div>
+      </div>
     </div>
   );
 }

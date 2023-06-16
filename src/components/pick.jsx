@@ -63,10 +63,10 @@ const Pick = () => {
                 Go back
               </p>
             </Link>
-            <Link to={``}>
+            <Link to={`/finishingUp`}>
               <button
                 className="ml-[25rem] border
-              bg-blue-800 font-normal
+                bg-blue-800 font-normal
                 rounded-md p-2">
                 Next step
               </button>
