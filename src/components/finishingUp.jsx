@@ -16,8 +16,9 @@ export default function FinishingUp() {
         </p>
       </div>
       <div className="bg-blue-100 w-[25rem] m-6">
-        <div className="flex m-3 space-x-[13rem]">
-          <h1>Arcade (Monthly) <br/>
+        <div className="flex m-3 space-x-[13rem] text-blue-950">
+          <h1 className="text-sm m-3 font-bold">Arcade (Monthly) 
+          <br />
           <Link to={``}>
             <span className="paragraph">
               Change
@@ -27,21 +28,21 @@ export default function FinishingUp() {
         </div>
         <hr className="h-0.5  bg-gray-300"/>
         <div>
-            <div className="flex space-x-[12rem]"><p className=" paragraph p-3">
+            <div className="flex space-x-[14rem]"><p className="text-sm paragraph p-3">
               Online services
             </p>
-            <span className="paragraph pt-2">+$1/mo</span></div>
-            <div className="flex space-x-[12rem]"><p className="paragraph p-3">
+            <span className="paragraph pt-3.5 text-sm">+$1/mo</span></div>
+            <div className="flex space-x-[13.5rem]"><p className="paragraph p-3">
               Larger storage
             </p>
-            <span className="paragraph">+$2/mo</span></div>
+            <span className="paragraph text-sm pt-2.5">+$2/mo</span></div>
         </div>
       </div>
-      <div>
-        <p className="ml-10 paragraph rounded-md p-3">
+      <div className="flex space-x-[14rem]">
+        <p className=" paragraph ml-7 text-sm">
               Total per month
         </p>
-            <span>+$12/mo</span>
+            <span className="text-1xl text-blue-700 font-bold">+$12/mo</span>
       </div>
       <div className="flex mt-20">
             <Link to={`/plan`}>
