@@ -8,14 +8,14 @@ export default function FinishingUp() {
       <div className="m-3">
         <Selector />
       </div>
-      <main className="m-10">
+      <main className="ml-20 mt-10">
       <div>
         <h1 className="text-3xl text-blue-900 font-bold">Finishing up</h1>
         <p className="paragraph font-normal text-sm mt-1">
           Double check everything before confirming
         </p>
       </div>
-      <div className="bg-blue-100 w-[25rem] m-6">
+      <div className="bg-blue-100 w-[25rem] ml-1 mt-2">
         <div className="flex m-3 space-x-[13rem] text-blue-950">
           <h1 className="text-sm m-3 font-bold">Arcade (Monthly) 
           <br />
@@ -28,15 +28,16 @@ export default function FinishingUp() {
         </div>
         <hr className="h-0.5  bg-gray-300"/>
         <div>
-            <div className="flex space-x-[14rem]"><p className="text-sm paragraph p-3">
+            <div className="flex space-x-[14rem]">
+              <p className="text-sm paragraph p-3">
               Online services
-            </p>
-            <span className="paragraph pt-3.5 text-sm">+$1/mo</span></div>
-            <div className="flex space-x-[13.5rem]"><p className="paragraph p-3">
+              </p>
+              <span className="paragraph pt-3.5 text-sm">+$1/mo</span></div>
+              <div className="flex space-x-[13.5rem]"><p className="paragraph p-3">
               Larger storage
-            </p>
-            <span className="paragraph text-sm pt-2.5">+$2/mo</span></div>
-        </div>
+              </p>
+              <span className="paragraph text-sm pt-2.5">+$2/mo</span></div>
+            </div>
       </div>
       <div className="flex space-x-[14rem]">
         <p className=" paragraph ml-7 text-sm">
@@ -54,10 +55,10 @@ export default function FinishingUp() {
             </Link>
             <Link to={``}>
               <button
-                className="ml-[25rem] border
+                className="ml-[15rem] border
               bg-blue-800 font-normal
-                rounded-md p-2">
-                Next step
+                rounded-md p-2 hover:bg-blue-300">
+                Confirm
               </button>
             </Link>
           </div>
