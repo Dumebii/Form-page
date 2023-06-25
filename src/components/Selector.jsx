@@ -1,7 +1,7 @@
 import '../index.css';
 
 
-export default function Selector() {
+export default function Selector( blink ) {
    return(
     <div className="background flex-row mt-5 ml-3 mb-5">
       <div className='flex-col'>
@@ -27,7 +27,7 @@ export default function Selector() {
 
         </div>
         <div className='flex-container'>
-           <button className='mr-5 ml-5 pl-2 pr-2'>
+           <button className={`mr-5 ml-5 pl-2 pr-2 ${blink? 'bg-blue-400' : 'bg-zinc-900'}`}>
              4 
           </button>
           <p className='paragraph'> Step 4 <br/> <span className='font-medium selector-span'>SUMMARY</span></p>

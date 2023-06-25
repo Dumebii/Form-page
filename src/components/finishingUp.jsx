@@ -1,12 +1,18 @@
 import Selector from "./Selector";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function FinishingUp() {
+       const [blink, setBlink] = useState(true)
+
+    
   return (
     <div className=" bg-white mt-10 ml-[11rem] rounded-xl w-[63rem]">
     <div className="flex">
       <div className="m-3">
-        <Selector />
+        <Selector
+        blink-prop = {blink}
+         />
       </div>
       <main className="ml-20 mt-10">
       <div>
@@ -16,15 +22,15 @@ export default function FinishingUp() {
         </p>
       </div>
       <div className="bg-blue-100 w-[25rem] ml-1 mt-2">
-        <div className="flex m-3 space-x-[13rem] text-blue-950">
-          <h1 className="text-sm m-3 font-bold">Arcade (Monthly) 
+        <div className="flex m-3 space-x-[13rem] text-blue-900 ">
+          <h1 className="text-sm mt-3 font-bold">Arcade (Monthly) 
           <br />
           <Link to={``}>
-            <span className="paragraph">
+            <a className="paragraph">
               Change
-            </span>
+            </a>
           </Link> </h1> 
-          <p className="">$9/mo</p>
+          <p className="p-3">$9/mo</p>
         </div>
         <hr className="h-0.5  bg-gray-300"/>
         <div>
