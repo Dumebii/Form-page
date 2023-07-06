@@ -59,7 +59,7 @@ export default function FinishingUp() {
                 Go back
               </p>
             </Link>
-            <Link to={``}>
+            <Link to={`/thankyou`}>
               <button
                 className="ml-[15rem] border
               bg-blue-800 font-normal

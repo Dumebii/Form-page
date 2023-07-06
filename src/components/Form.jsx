@@ -68,9 +68,9 @@ export default function Form() {
             onChange={setSate}
             value={contact.fName}
             placeholder="e.g. Stephen King"
-            required
+            // required
           />
-          {formErrors.fName && <span>{formErrors.name}</span>}
+          {formErrors.fName && <span>{formErrors.fName}</span>}
           <label htmlFor="email">Email Address</label>
           <input
             className="block border mb-8 pl-10 rounded-md w-[30em]"
@@ -78,7 +78,7 @@ export default function Form() {
             onChange={setSate}
             value={contact.email}
             placeholder="e.g. stephenking@lorem.com"
-            required
+            // required
           />
           {formErrors.email && <span>{formErrors.email}</span>}
           <label htmlFor="phone">Phone Number</label>
@@ -89,7 +89,7 @@ export default function Form() {
             value={contact.phone}
             type="number"
             placeholder="e.g. +23481725545"
-            required
+            // required
           />
           {formErrors.phone && <span>{formErrors.phone}</span>}
           <Link to={`plan`}>

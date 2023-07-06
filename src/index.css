@@ -15,6 +15,7 @@ body {
   background-size: cover;
   height: 30rem;
   width: 15rem;
+  border-radius: 3%;
 }
 
 .form {
@@ -142,3 +143,31 @@ body {
 .slider.round:before {
   border-radius: 50%;
 }
+
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+  .selector-span, .selector-paragraph{
+    visibility: hidden;
+  }
+  .mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .selector-flex {
+    flex-direction: row;
+  } 
+  .selector-button {
+    margin: 0;
+    margin-left: 5px;
+  }
+  .background {
+  background-image: url('./components/images/bg-sidebar-mobile.svg');
+  background-size: cover;
+  height: 10rem;
+  width: 100%;
+  }
+}
+

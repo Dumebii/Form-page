@@ -1,13 +1,11 @@
 import Plan from './components/plan';
 import * as ReactDOM from "react-dom/client";
-
 import Homepage from './components/homepage';
-
 import { createBrowserRouter, RouterProvider}
    from 'react-router-dom';
-
 import Pick from './components/pick';
 import FinishingUp from './components/finishingUp';
+import Thankyou from './components/thankyou';
 
 const router = createBrowserRouter([{
   path: "/",
@@ -28,6 +26,10 @@ const router = createBrowserRouter([{
 {
   path: "/finishingUp",
   element: <FinishingUp />
+},
+{
+  path: "/thankyou",
+  element: <Thankyou />
 }
 ])
 
