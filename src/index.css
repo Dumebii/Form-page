@@ -150,10 +150,8 @@ body {
 
 
 @media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
   .selector-span, .selector-paragraph{
+    /* display: none; */
     visibility: hidden;
   }
   .mobile {
@@ -171,7 +169,7 @@ body {
   background-image: url('./components/images/bg-sidebar-mobile.svg');
   background-size: cover;
   height: 15rem;
-  width: 15rem;
+  width: 23rem;
   }
 }
 
