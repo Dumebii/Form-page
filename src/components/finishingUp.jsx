@@ -7,7 +7,7 @@ export default function FinishingUp() {
 
     
   return (
-    <div className=" bg-white mt-10 ml-[11rem] rounded-xl w-[63rem]">
+    <div className=" bg-white mt-10 ml-[11rem] white-rounding w-[61rem]">
     <div className="flex">
       <div className="m-3">
         <Selector
@@ -30,7 +30,7 @@ export default function FinishingUp() {
               Change
             </a>
           </Link> </h1> 
-          <p className="p-3">$9/mo</p>
+          <p className="mt-3">$9/mo</p>
         </div>
         <hr className="h-0.5  bg-gray-300"/>
         <div>
@@ -46,22 +46,22 @@ export default function FinishingUp() {
             </div>
       </div>
       <div className="flex space-x-[14rem]">
-        <p className=" paragraph ml-7 text-sm">
+        <p className=" paragraph ml-2 mt-3 text-sm">
               Total per month
         </p>
-            <span className="text-1xl text-blue-700 font-bold">+$12/mo</span>
+            <span className="text-1xl text-blue-700 font-bold mt-3">+$12/mo</span>
       </div>
-      <div className="flex mt-20">
+      <div className="flex mt-[10rem]">
             <Link to={`/plan`}>
               <p
-                className="ml-10 paragraph
+                className="ml-8 paragraph
                  rounded-md p-3">
                 Go back
               </p>
             </Link>
             <Link to={`/thankyou`}>
               <button
-                className="ml-[15rem] border
+                className="ml-[13rem] border
               bg-blue-800 font-normal
                 rounded-md p-2 hover:bg-blue-300">
                 Confirm

@@ -18,7 +18,7 @@ export default function Plan() {
     }
 
     return ( 
-    <div className='flex bg-white mt-10 ml-[11rem] rounded-xl w-[63rem]'>
+    <div className='flex bg-white mt-10 ml-[11rem] white-rounding w-[63rem]'>
     <div className='m-5'><Selector /></div>
     <div className='m-10'>
     <div className='m-5'>
