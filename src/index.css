@@ -169,7 +169,15 @@ body {
   background-image: url('./components/images/bg-sidebar-mobile.svg');
   background-size: cover;
   height: 15rem;
-  width: 23rem;
+  width: 25rem;
+  margin-top: 0%;
+  }
+  .thank-you {
+    margin: 0;
+    background-color: white;
+    position: absolute;
+    left: 60px;
+    top: 10.2rem;
   }
 }
 

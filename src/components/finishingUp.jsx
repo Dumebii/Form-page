@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 export default function FinishingUp() {
-       const [blink, setBlink] = useState(true)
+     
 
     
   return (
@@ -11,7 +11,6 @@ export default function FinishingUp() {
     <div className="flex">
       <div className="m-3">
         <Selector
-        blink-prop = {blink}
          />
       </div>
       <main className="ml-20 mt-10">
