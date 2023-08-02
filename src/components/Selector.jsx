@@ -1,7 +1,8 @@
 import '../index.css';
+import { Link } from "react-router-dom";
 
 
-export default function Selector( blink ) {
+export default function Selector( blinkPage ) {
    return(
     <div className="background flex-row lg:mt-5 lg:ml-3 lg:mb-5">
       <div className='flex-col selector-flex'>
@@ -27,7 +28,7 @@ export default function Selector( blink ) {
 
         </div>
         <div className='flex-container'>
-        <Link to={`/thankyou`}><button className={`mr-5 ml-5 pl-2 pr-2 selector-button ${blink? 'bg-blue-400' : 'bg-zinc-900'}`}>
+        <Link to={`/thankyou`}><button className={`mr-5 ml-5 pl-2 pr-2 selector-button ${blinkPage? 'bg-blue-400' : 'bg-zinc-900'}`}>
              4 
           </button></Link>
           <p className='paragraph selector-paragraph'> Step 4 <br/> <span className='font-medium selector-span'>SUMMARY</span></p>

@@ -11,12 +11,12 @@ const Pick = () => {
   }
 
   return (
-    <div className=" bg-white mt-10 ml-[11rem] white-rounding w-[63rem]">
+    <div className=" lg:bg-white mt-10 lg:ml-[11rem] white-rounding lg:w-[63rem] pick-main">
       <div className="flex">
-        <div className="m-3">
+        <div className="lg:m-3">
           <Selector />
         </div>
-        <main className="m-5">
+        <main className="m-5 pick pick-main-div">
           <div className="m-5">
             <h1 className="text-3xl text-blue-900 font-bold">Pick add-ons</h1>
             <p className="paragraph font-normal text-sm mt-1">
@@ -32,7 +32,7 @@ const Pick = () => {
                   <span>Access to multi play games</span>
                 </h4>
               </div>
-              <p className="ml-[10rem] mt-2">+$10/yr</p>
+              <p className="lg:ml-[10rem] mt-2">+$10/yr</p>
             </div>
           </div>
           <div className={`flex options-pick m-6 rounded-md ${check? 'bg-blue-100' : 'bg-white' }`}>
@@ -42,7 +42,7 @@ const Pick = () => {
                 <h4>Larger Storage</h4>
                 <p>Extra 1TB of cloud save</p>
               </div>
-              <p className="ml-[12rem] mt-2">+$20/yr</p>
+              <p className="lg:ml-[12rem] mt-2">+$20/yr</p>
             </div>
           </div>
           <div className={`flex options-pick m-6 rounded-md ${check? 'bg-blue-100' : 'bg-white' }`} onClick={checking}>
@@ -52,7 +52,7 @@ const Pick = () => {
                 <h4>Customizable profile</h4>
                 <p>Custom theme on your profile</p>
               </div>
-              <p className="ml-[9rem] mt-2">+$20/yr</p>
+              <p className="lg:ml-[9rem] mt-2">+$20/yr</p>
             </div>
           </div>
           <div className="flex mt-20">
@@ -65,7 +65,7 @@ const Pick = () => {
             </Link>
             <Link to={`/finishingUp`}>
               <button
-                className="ml-[25rem] border
+                className="lg:ml-[25rem] border
                 bg-blue-800 font-normal
                 rounded-md p-2">
                 Next step

@@ -1,13 +1,18 @@
 import React from 'react'
 import Selector from './Selector'
 import Form from './Form'
+import { useState } from 'react'
 
-const Homepage = ( blink ) => {
+const Homepage = () => {
+  const [blink, setBlink] = useState(true)
   return (
-    <div className="flex ml-[11rem] mt-10 bg-white white-rounding w-[63rem]">
+    <div className="flex lg:ml-[11rem] lg:mt-10 lg:bg-white white-rounding lg:w-[63rem] homepage-main">
   <Selector
-  blink-page = {blink} />
-  <Form /> </div>
+  blinkPage = {blink} />
+  <div className='homepage'>
+  <Form />
+  </div>
+  </div>
   )
 }
 

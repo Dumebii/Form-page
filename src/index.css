@@ -154,7 +154,7 @@ body {
     /* display: none; */
     visibility: hidden;
   }
-  .mobile {
+  .mobile, .homepage-main, .pick-main, .plan-flex {
     display: flex;
     flex-direction: column;
   }
@@ -174,10 +174,36 @@ body {
   }
   .thank-you {
     margin: 0;
-    background-color: white;
     position: absolute;
     left: 60px;
     top: 10.2rem;
+  }
+  .homepage, .pick, .plan {
+    margin: 0;
+    position: absolute;
+    left: 6rem;
+    top: 9.1rem;
+  }
+  .plan, .thank-you {
+    background-color: white;
+  }
+  .options-flex {
+    display: flex;
+  }
+  .second-paragraph {
+    margin-top: 20px;
+  }
+  .first-paragraph {
+    margin-top: 5px;
+  }
+  .pick-main-div {
+    width: 80%;
+  }
+  .pick {
+    margin: 0;
+    position: absolute;
+    left: 5rem;
+    top: 13rem;
   }
 }
 

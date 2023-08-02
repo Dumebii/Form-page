@@ -56,45 +56,45 @@ export default function Form() {
   return (
     <div className="form">
       <h1 className="text-blue-900 pt-10 mb-8 ml-8 font-bold">Personal Info</h1>
-      <p className="mb-8  mt-3 ml-8 paragraph font-normal">
-        Please provide your name, email address and phone number
+      <p className="mb-8 mt-3 ml-8 paragraph font-normal">
+        Please provide your name, email <br className="lg:hidden" /> address and phone number
       </p>
       <div>
         <form className="pl-8" onSubmit={handleSubmit}>
           <label htmlFor="fName">Name</label>
           <input
-            className="block border mb-8 pl-10 rounded-md w-[30em]"
+            className="block border mb-8 pl-10 rounded-md lg:w-[30em]"
             name="fName"
             onChange={setSate}
             value={contact.fName}
             placeholder="e.g. Stephen King"
-            // required
+            required
           />
           {formErrors.fName && <span>{formErrors.fName}</span>}
           <label htmlFor="email">Email Address</label>
           <input
-            className="block border mb-8 pl-10 rounded-md w-[30em]"
+            className="block border mb-8 pl-10 rounded-md lg:w-[30em]"
             name="email"
             onChange={setSate}
             value={contact.email}
             placeholder="e.g. stephenking@lorem.com"
-            // required
+            required
           />
           {formErrors.email && <span>{formErrors.email}</span>}
           <label htmlFor="phone">Phone Number</label>
           <input
             name="phone"
-            className="block border mb-8 pl-10 rounded-md w-[30em]"
+            className="block border mb-8 pl-10 rounded-md lg:w-[30em]"
             onChange={setSate}
             value={contact.phone}
             type="number"
             placeholder="e.g. +23481725545"
-            // required
+            required
           />
           {formErrors.phone && <span>{formErrors.phone}</span>}
           <Link to={`plan`}>
             <button
-              className="ml-[24rem] border mt-5 form-button text-white
+              className="lg:ml-[24rem] ml-40 border lg:mt-5 mt-10 form-button text-white
         rounded-md p-2"
               type="submit">
               Next step
