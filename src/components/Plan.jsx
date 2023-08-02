@@ -18,9 +18,9 @@ export default function Plan() {
     }
 
     return ( 
-    <div className='flex bg-white mt-10 ml-[11rem] white-rounding w-[63rem]'>
-    <div className='m-5'><Selector /></div>
-    <div className='m-10'>
+    <div className='flex lg:bg-white mt-10 lg:ml-[11rem] white-rounding lg:w-[63rem] pick-main'>
+    <div className='lg:m-5'><Selector /></div>
+    <div className='lg:m-10 plan'>
     <div className='m-5'>
     <h1 className=' text-blue-900 font-bold text-3xl'>
       Select your plan
@@ -30,29 +30,29 @@ export default function Plan() {
     </p>
     </div>
     
-    <div className='flex'>
-       <div className='w-[12rem] h-[12rem] first-div m-3' onMouseOver={hidden}>
+    <div className='flex plan-flex'>
+       <div className='lg:w-[12rem] lg:h-[12rem] first-div m-3 options-flex' onMouseOver={hidden}>
          <img className='pl-6 mt-6 mb-6' src={Arcade} />
-         <p className='pl-6 second-paragraph'>Arcade</p>
+         <div><p className='pl-6 second-paragraph'>Arcade</p>
          <p className='pl-6 first-paragraph'>{state? '$90/mo' : '$9/mo'}</p>
-         {state && <p className='m-6'>2 months free</p>}
+         {state && <p className='m-6'>2 months free</p>}</div>
          
         </div>
-        <div className='w-[12rem] h-[12rem] first-div m-3' >
+        <div className='lg:w-[12rem] lg:h-[12rem] first-div m-3 options-flex' >
          <img className='pl-6 mt-6 mb-6' src={Advanced} />
-         <p className='pl-6 second-paragraph'>Advanced</p>
+         <div><p className='pl-6 second-paragraph'>Advanced</p>
          <p className='pl-6 first-paragraph'>{state? '$120/mo' : '$12/mo'}</p>
-         {state && <p className='m-6'>2 months free</p>}
+         {state && <p className='m-6'>2 months free</p>}</div>
         </div>
-        <div className='w-[12rem] h-[12rem] first-div m-3'>
+        <div className='lg:w-[12rem] lg:h-[12rem] first-div m-3 options-flex'>
          <img className='pl-6 mt-6 mb-6' src={Pro} />
-         <p className='pl-6 second-paragraph'>Pro</p>
+         <div><p className='pl-6 second-paragraph'>Pro</p>
          <p className='pl-6 first-paragraph'>{state? '$150/mo' : '$15/mo'}</p>
-         {state && <p className='m-6'>2 months free</p>}
+         {state && <p className='m-6'>2 months free</p>}</div>
         </div> 
        </div>
-       <div className='w-[37rem] h-10 bg-neutral-100 m-4 rounded-md'>
-        <span className='pl-[10rem] text-blue-900'>Monthly</span> 
+       <div className='lg:w-[37rem] lg:h-10 bg-neutral-100 m-4 rounded-md'>
+        <span className='lg:pl-[10rem] text-blue-900'>Monthly</span> 
         <label className="switch m-3">
           <input type="checkbox" className='input' checked={check} onChange={checking}/>
         <span className="slider round"></span>
@@ -63,8 +63,8 @@ export default function Plan() {
       <div className='flex mt-10'>
         <Link to={`/`}><p className="ml-10 paragraph
         rounded-md p-3">Go back</p></Link>
-        <Link to={`/pick`}><button className="ml-[25rem] border
-         bg-blue-800 font-normal
+        <Link to={`/pick`}><button className="lg:ml-[25rem] border
+         bg-blue-800 font-normal text-white ml-5
         rounded-md p-2">
         Next step</button></Link>
       </div>
