@@ -5,10 +5,14 @@ import { useState } from 'react'
 
 const Homepage = () => {
   const [blink, setBlink] = useState(true)
+  function onClick(){
+  setBlink(false)}
+
   return (
     <div className="flex lg:ml-[11rem] lg:mt-10 lg:bg-white white-rounding lg:w-[63rem] homepage-main">
   <Selector
-  blinkPage = {blink} />
+  blinkPage = {blink}
+  onClick = {onClick} />
   <div className='homepage'>
   <Form />
   </div>

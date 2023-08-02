@@ -178,13 +178,13 @@ body {
     left: 60px;
     top: 10.2rem;
   }
-  .homepage, .pick, .plan {
+  .homepage, .plan {
     margin: 0;
     position: absolute;
     left: 6rem;
     top: 9.1rem;
   }
-  .plan, .thank-you {
+  .plan, .thank-you, .pick {
     background-color: white;
   }
   .options-flex {
