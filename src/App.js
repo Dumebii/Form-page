@@ -1,4 +1,4 @@
-import Plan from './components/plan';
+import Plan from './components/Plan';
 import Homepage from './components/homepage';
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Pick from './components/pick';
