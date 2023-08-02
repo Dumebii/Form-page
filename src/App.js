@@ -1,5 +1,4 @@
 import Plan from './components/plan';
-import * as ReactDOM from "react-dom/client";
 import Homepage from './components/homepage';
 import { createBrowserRouter, RouterProvider}
    from 'react-router-dom';
