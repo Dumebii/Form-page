@@ -1,7 +1,6 @@
 import Plan from './components/plan';
 import Homepage from './components/homepage';
-import { createBrowserRouter, RouterProvider}
-   from 'react-router-dom';
+import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Pick from './components/pick';
 import FinishingUp from './components/finishingUp';
 import Thankyou from './components/thankyou';
