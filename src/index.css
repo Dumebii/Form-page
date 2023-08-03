@@ -175,14 +175,21 @@ body {
   .thank-you {
     margin: 0;
     position: absolute;
-    left: 60px;
+    left: 20px;
     top: 10.2rem;
+    width: 360px;
   }
-  .homepage, .plan {
+  .homepage {
     margin: 0;
     position: absolute;
-    left: 6rem;
+    left: 4rem;
     top: 9.1rem;
+  }
+  .plan {
+    margin: 0;
+    position: absolute;
+    left: 2rem;
+    top: 13rem;
   }
   .plan, .thank-you, .pick {
     background-color: white;
@@ -202,8 +209,14 @@ body {
   .pick {
     margin: 0;
     position: absolute;
-    left: 5rem;
+    left: 3rem;
     top: 13rem;
+  }
+  .thankyou-text {
+    margin-left: 10px;
+  }
+  .thankyou-img {
+    margin-top: 20px;
   }
 }
 
