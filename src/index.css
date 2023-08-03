@@ -151,8 +151,8 @@ body {
 
 @media screen and (max-width: 768px) {
   .selector-span, .selector-paragraph{
-    /* display: none; */
-    visibility: hidden;
+    display: none;
+    /* visibility: hidden; */
   }
   .mobile, .homepage-main, .pick-main, .plan-flex {
     display: flex;
@@ -160,10 +160,14 @@ body {
   }
   .selector-flex {
     flex-direction: row;
+    margin-left: 40px;
+    margin-top: 0px;
+    gap: 50px;
   } 
   .selector-button {
     margin: 0;
     margin-left: 5px;
+    margin-top: 20px;
   }
   .background {
   background-image: url('./components/images/bg-sidebar-mobile.svg');
