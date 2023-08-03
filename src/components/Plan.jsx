@@ -18,7 +18,7 @@ export default function Plan() {
     }
 
     return ( 
-    <div className='flex lg:bg-white mt-10 lg:ml-[11rem] white-rounding lg:w-[63rem] pick-main'>
+    <div className='flex lg:bg-white lg:mt-10 lg:ml-[11rem] white-rounding lg:w-[63rem] pick-main'>
     <div className='lg:m-5'><Selector /></div>
     <div className='lg:m-10 plan'>
     <div className='m-5'>

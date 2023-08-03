@@ -193,7 +193,7 @@ body {
     margin: 0;
     position: absolute;
     left: 2rem;
-    top: 13rem;
+    top: 10rem;
   }
   .plan, .thank-you, .pick {
     background-color: white;
@@ -214,7 +214,7 @@ body {
     margin: 0;
     position: absolute;
     left: 3rem;
-    top: 13rem;
+    top: 10rem;
   }
   .thankyou-text {
     margin-left: 10px;

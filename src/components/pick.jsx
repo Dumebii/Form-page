@@ -11,7 +11,7 @@ const Pick = () => {
   }
 
   return (
-    <div className=" lg:bg-white mt-10 lg:ml-[11rem] white-rounding lg:w-[63rem] pick-main">
+    <div className=" lg:bg-white lg:mt-10 lg:ml-[11rem] white-rounding lg:w-[63rem] pick-main">
       <div className="flex">
         <div className="lg:m-3">
           <Selector />
